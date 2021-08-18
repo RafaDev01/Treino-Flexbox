@@ -11,6 +11,7 @@
   max-width: 600px;
   margin: 0 auto;
   border: 1px solid #000;
+  justify-content: space-around;
 }
 
 .flexivel {
@@ -25,6 +26,17 @@
   flex-direction: column;
 }
 
+.quebra {
+  flex-wrap: wrap-reverse;
+}
+
+.fluxo-horizontal-quebra {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.fluxo-horizontal-sem-quebra {
+  flex-flow: row nowrap;
+}
 
 
 body {
