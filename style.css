@@ -1,0 +1,33 @@
+.item {
+  margin: 5px;
+  padding: 5px;
+  background-color: #447;
+  font-size: 1em;
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+
+.flexivel {
+  display: flex;
+}
+
+.horizontal {
+  flex-direction: row;
+}
+
+.vertical {
+  flex-direction: column;
+}
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+}
