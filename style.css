@@ -13,8 +13,8 @@
   margin: 0 auto;
   border: 1px solid #000;
   justify-content: center; /* eixo principal */
- /* align-items: center; /* eixo secundario */
-  align-content: space-between;  /* eixo secundario */
+  align-items: center; /* eixo secundario */
+  /*align-content: center;  /* eixo secundario */
 }
 
 .flexivel {
@@ -92,6 +92,31 @@
 .ordem3 {
   order: 3;
 }
+
+.reduzir3 {
+  flex-shrink: 3;
+}
+
+.reduzir2 {
+  flex-shrink: 2;
+}
+
+.reduzir1 {
+  flex-shrink: 1;
+}
+
+.reduzir0 {
+  flex-shrink: 0;
+}
+
+.flex {
+  /*
+  Atalho para, flex-grow , flex-shrink, flex-basis
+                n                1             0
+  */
+  flex: 0;
+}
+
 
 
 body {
