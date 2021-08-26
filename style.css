@@ -13,7 +13,7 @@
   margin: 0 auto;
   border: 1px solid #000;
   justify-content: center; /* eixo principal */
-  align-items: center; /* eixo secundario */
+  align-items: flex-start; /* eixo secundario */
   /*align-content: center;  /* eixo secundario */
 }
 
@@ -114,7 +114,18 @@
   Atalho para, flex-grow , flex-shrink, flex-basis
                 n                1             0
   */
-  flex: 0;
+}
+
+.inicio {
+  align-self: flex-start;
+}
+
+.base {
+  align-self: flex-end;
+}
+ 
+.meio {
+  align-self: center;
 }
 
 
